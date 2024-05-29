@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+
+
+
+
+.section-study-schedule{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+h2,
+h3 {
+  font-size: 1.6rem;
+  color: #eff3f5;
+}
+
+h2 {
+  margin-bottom: 1.3rem;
+}
+
+h3 {
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+time,
+p {
+  color: #a0a7ac;
+  font-size: 1.4rem;
+}
+
+ol {
+  list-style: none;
+  border-left: 1px solid #a0a7ac;
+  margin-left: 0.6rem;
+}
+
+.container {
+  margin: 60px 0;
+}
+
+.history-container {
+  padding: 3rem;
+  margin: 0 auto;
+  background-color: #212e36;
+  max-width: 600px;
+  border-radius: 1.2rem;
+}
+
+.history-item-container {
+  display: flex;
+}
+
+.history-item {
+  margin-bottom: 2.5rem;
+}
+
+.image {
+  margin-right: 1.6rem;
+  display: flex;
+}
+
+img {
+  width: 180px;
+  border-radius: 5px;
+}
+
+.history-time {
+  position: relative;
+  margin: 0 1.6rem;
+  align-self: center;
+}
+
+.history-time::before {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  background-color: #212e36;
+  border-radius: 50%;
+  margin-left: -2.1rem;
+  margin-top: 0.3rem;
+  border: 1px solid #a0a7ac;
+}
+
+@media (max-width: 700px) {
+  ol {
+    border: none;
+  }
+
+  .history-time,
+  .history-time::before {
+    display: none;
+  }
+
+  .history-container {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .history-container {
+    border-radius: 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+}

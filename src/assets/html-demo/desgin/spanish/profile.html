@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section class="flex">
+        <a href="index.html" class="logo"
+          ><img
+            class="img-logo"
+            id="logo-navbar"
+            src="./images/ulpanPNG.png"
+            alt=""
+        /></a>
+
+        <div class="traductor">
+          <div class="container-idioma">
+            <a href="../index.html"><img src="./images/idioma/reino-unido.png" alt="Ingles"></a>
+            <a href="index.html"><img src="./images/idioma/bandera (1).png" alt="Español"></a>
+          </div>
+        </div>
+
+        <form action="search.html" method="post" class="search-form">
+          <input
+            type="text"
+            name="search_box"
+            required
+            placeholder="search courses..."
+            maxlength="100" />
+          <button type="submit" class="fas fa-search"></button>
+        </form>
+
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+
+        <div class="profile">
+          <img src="images/pic-1.jpg" class="image" alt="" />
+          <h3 class="name">Francisco</h3>
+          <p class="role">Estudiante</p>
+          <a href="profile.html" class="btn">Ver Prefil</a>
+          <div class="flex-btn">
+            <a href="login.html" class="option-btn">Iniciar sesion</a>
+            <a href="register.html" class="option-btn">Registrarse </a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <div class="side-bar">
+      <div id="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
+
+      <div class="profile">
+        <img src="images/pic-1.jpg" class="image" alt="" />
+        <h3 class="name">Francisco</h3>
+        <p class="role">Estudiante</p>
+        <a href="profile.html" class="btn">Ver Prefil</a>
+      </div>
+
+      <nav class="navbar">
+        <a href="index.html"><img src="./images/iconbarnav/hebreo.png" alt=""><span>Inicio</span></a>
+        <a href="courses.html"
+          ><img src="./images/iconbarnav/graduacion.png" alt=""><span>Curso</span></a
+        >
+
+         <a href="complementary.html"
+          ><img src="./images/iconbarnav/complementario (1).png" alt=""><span>Complementario</span></a
+        >
+
+        <a href="precourse.html"
+          ><img src="./images/iconbarnav/aprender-en-linea.png" alt=""><span>Pre-Curso</span></a
+        >
+
+        <a href="mobile.html"
+          ><img src="./images/iconbarnav/telefono-inteligente.png" alt=""><span>Práctica para Celulares</span></a
+        >
+
+ <a href="vocabulary.html"
+          ><img src="./images/iconbarnav/caja-de-herramientas.png" alt=""><span>Vocabulario</span></a
+        >
+        <a href="library.html"><img src="./images/iconbarnav/biblioteca.png" alt=""><span>Libreria</span></a> 
+        <a href="about.html"
+        ><img src="./images/iconbarnav/acerca-de.png" alt=""><span>Acerca de</span></a
+      >
+        <a href="contact.html"
+          ><img src="./images/iconbarnav/atencion-al-cliente.png" alt=""><span>Contactanos</span></a
+        >
+      </nav>
+    </div>
+
+    <section class="user-profile">
+      <h1 class="heading">Tu Perfil</h1>
+
+      <div class="info">
+        <div class="user">
+          <img src="images/pic-1.jpg" alt="" />
+          <h3>Francisco</h3>
+          <p>Estudiante</p>
+          <a href="update.html" class="inline-btn">Actualización del Perfil</a>
+        </div>
+
+        <div class="box-container">
+          <div class="box">
+            <div class="flex">
+              <i class="fas fa-bookmark"></i>
+              <div>
+                <span>4</span>
+                <p>Guardar lista de reproducciones</p>
+              </div>
+            </div>
+            <a href="#" class="inline-btn">Ver Lista de Reproducciones</a>
+          </div>
+
+          <div class="box">
+            <div class="flex">
+              <i class="fas fa-heart"></i>
+              <div>
+                <span>33</span>
+                <p>Vídeos que Me Gustaron</p>
+              </div>
+            </div>
+            <a href="#" class="inline-btn">Ver Me gusta</a>
+          </div>
+
+          <div class="box">
+            <div class="flex">
+              <i class="fas fa-comment"></i>
+              <div>
+                <span>12</span>
+                <p>Comentarios de Vídeos</p>
+              </div>
+            </div>
+            <a href="#" class="inline-btn">Ver Comentarios</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      &copy; copyright @ 2024 by
+      <span
+        ><img
+          id="img-footer"
+          class="img-logo-footer"
+          src="./images/ulpanPNG.png"
+          alt=""
+      /></span>
+      | all rights reserved
+    </footer>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

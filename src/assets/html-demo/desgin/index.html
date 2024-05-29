@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/history.css">
+  </head>
+  <body>
+    <header class="header">
+      <section class="flex">
+        <a href="index.html" class="logo"
+          ><img
+            class="img-logo"
+            id="logo-navbar"
+            src="./images/ulpanPNG.png"
+            alt=""
+        />
+      </a>
+
+      <div class="traductor">
+        <div class="container-idioma">
+
+          <a href="./index.html"><img src="./images/idioma/reino-unido.png" alt="Ingles"></a>
+          <a href="./spanish/index.html"><img src="./images/idioma/bandera (1).png" alt="Español"></a>
+        </div>
+      </div>
+
+        <form action="search.html" method="post" class="search-form">
+          <input
+            type="text"
+            name="search_box"
+            required
+            placeholder="search courses..."
+            maxlength="100" />
+          <button type="submit" class="fas fa-search"></button>
+        </form>
+
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+
+        <div class="profile">
+          <img src="images/pic-1.jpg" class="image" alt="" />
+          <h3 class="name">Francis F.</h3>
+          <p class="role">Student</p>
+          <a href="profile.html" class="btn">view profile</a>
+          <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <div class="side-bar">
+      <div id="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
+
+      <div class="profile">
+        <img src="images/pic-1.jpg" class="image" alt="" />
+        <h3 class="name">Francis</h3>
+        <p class="role">Student</p>
+        <a href="profile.html" class="btn">view profile</a>
+      </div>
+
+      <nav class="navbar">
+        <a href="index.html"><img src="./images/iconbarnav/hebreo.png" alt=""><span>Home</span></a>
+        <a href="courses.html"
+          ><img src="./images/iconbarnav/graduacion.png" alt=""><span>Courses</span></a
+        >
+
+         <a href="complementary.html"
+          ><img src="./images/iconbarnav/complementario (1).png" alt=""><span>Complementary</span></a
+        >
+
+        <a href="precourse.html"
+          ><img src="./images/iconbarnav/aprender-en-linea.png" alt=""><span>Precourse</span></a
+        >
+
+        <a href="mobile.html"
+          ><img src="./images/iconbarnav/telefono-inteligente.png" alt=""><span>Mobile Practice</span></a
+        >
+
+ <a href="vocabulary.html"
+          ><img src="./images/iconbarnav/caja-de-herramientas.png" alt=""><span>Vocabulary</span></a
+        >
+        <a href="library.html"><img src="./images/iconbarnav/biblioteca.png" alt=""><span>Library</span></a> 
+        <a href="about.html"
+        ><img src="./images/iconbarnav/acerca-de.png" alt=""><span>About</span></a
+      >
+        <a href="contact.html"
+          ><img src="./images/iconbarnav/atencion-al-cliente.png" alt=""><span>Contact us</span></a
+        >
+      </nav>
+    </div>
+
+    <section class="home-grid">
+      <h1 class="txt-prncpl">Learning tools </h1>
+      <div class="box-container">
+       <!--  <div class="box">
+          <h3 class="title">likes and comments</h3>
+          <p class="likes">total likes : <span>25</span></p>
+          <a href="#" class="inline-btn">view likes</a>
+          <p class="likes">total comments : <span>12</span></p>
+          <a href="#" class="inline-btn">view comments</a>
+          <p class="likes">saved playlists : <span>4</span></p>
+          <a href="#" class="inline-btn">view playlists</a>
+        </div>-->
+
+      <section class="container-sect-1">
+        <div class="content-principal-txt-img">
+          <a class="content-class-img-txt" href="./courses.html">
+            <div class="contenedor-learningtools">
+            <img src="./images/aleph-12.jpg" alt="">
+            <h5>Principal Course</h5>
+            <p>Aleph Level</p>
+          </div>
+        </a>
+
+          <a href="./vocabulary.html"  class="content-class-img-txt">
+            <div class="contenedor-learningtools">
+              <img src="./images/icon-palabra-hebrew.png" alt="">
+              <h5>Vocabulary Builder</h5>
+              <p>Learn up to 5000 new words with interactive images</p>
+            </div>
+          </a>
+
+          <a href="./complementary.html" class="content-class-img-txt">
+            <div class="contenedor-learningtools">
+              <img class="img-grup" src="./images/tolerancia.png" alt="" >
+              <h5>Useful Extra Courses</h5>
+              <p>Working and Social integration courses</p>
+            </div>
+          </a>
+
+          <a href="./precourse.html" class="content-class-img-txt" >
+            <div class="contenedor-learningtools">
+              <img src="./images/img-precourse.png" alt="">
+              <h5>Pre Level Course</h5>
+              <p>Learn Key Contents Before The Course Start</p>
+            </div>
+          </a>
+
+          <a href="./library.html" class="content-class-img-txt">
+            <div class="contenedor-learningtools">
+              <img src="./images/ebokORG.png" alt="">
+              <h5>Interactive Simple eBooks</h5>
+              <p>And check comprehension</p>
+            </div>
+          </a>
+
+          <a href="./mobile.html"  class="content-class-img-txt">
+            <div class="contenedor-learningtools">
+              <img class="img-grup" src="./images/gamification.jpg" alt="">
+              <h5>Learning Games</h5>
+              <p>Gamification (Learn with didactical games)</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+        <!-- <div class="box">
+         <h3 class="title">popular topics</h3>
+         <div class="flex">
+            <a href="#"><i class="fab fa-html5"></i><span>HTML</span></a>
+            <a href="#"><i class="fab fa-css3"></i><span>CSS</span></a>
+            <a href="#"><i class="fab fa-js"></i><span>javascript</span></a>
+            <a href="#"><i class="fab fa-react"></i><span>react</span></a>
+            <a href="#"><i class="fab fa-php"></i><span>PHP</span></a>
+            <a href="#"><i class="fab fa-bootstrap"></i><span>bootstrap</span></a>
+         </div>
+      </div> -->
+
+        <!--  <div class="box">
+         <h3 class="title">become a tutor</h3>
+         <p class="tutor">Transform your passion for teaching into your next great adventure! Become a tutor with us and make a difference by inspiring minds and sharing knowledge. Join now and start changing lives today!</p>
+         <a href="teachers.html" class="inline-btn">get started</a>
+      </div> -->
+      </div>
+    </section>
+
+    <!-- <div class="container">
+      <div class="row">
+        <main>
+          <section class="container">
+            <div class="history-container">
+              <h2>Yesterday</h2>
+              <ol>
+                <li class="history-item">
+                  <div class="history-item-container">
+                    <div class="image">
+                      <time class="history-time">
+                        12:20
+                      </time>
+                      <a href="complementary.html">
+                        <img src="images/aleph.jpg" alt="imagen del curso de GO">
+                      </a>
+                    </div>
+                    <div class="course">
+                      <a href="complementary.html"><h3>1.2 - Feelings and Emotions</h3></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="history-item">
+                  <div class="history-item-container">
+                    <div class="image">
+                      <time class="history-time">
+                        11:50
+                      </time>
+                      <a href="precourse.html">
+                        <img src="./images/israel.avif" alt="imagen del curso de GO">
+                      </a>
+                    </div>
+                    <div class="course">
+                      <a href="precourse.html"><h3>1.1 - Precourse </h3></a>
+                      <p>Introduction to Hebrew</p>
+                    </div>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div> -->
+
+    <section class="courses">
+      <h1 class="heading">Our courses</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="tutor">
+            <img src="images/pic-2.jpg" alt="" />
+            <div class="info">
+              <h3>Oliver Reed</h3>
+              <span>21-10-2022</span>
+            </div>
+          </div>
+          <div class="thumb">
+            <img src="./images/israel.avif" alt="" />
+            <span>10 videos</span>
+          </div>
+          <h3 class="title">Level Aleph</h3>
+          <a href="playlist.html" class="inline-btn">view playlist</a>
+        </div>
+
+        
+
+        
+      </div>
+
+      <div class="more-btn">
+        <a href="courses.html" class="inline-option-btn">view all courses</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      &copy; copyright @ 2024 by
+      <span
+        ><img
+          id="img-footer"
+          class="img-logo-footer"
+          src="./images/ulpanPNG.png"
+          alt=""
+      /></span>
+      | all rights reserved
+    </footer>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

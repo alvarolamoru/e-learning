@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>watch</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section class="flex">
+        <a href="index.html" class="logo"
+          ><img
+            class="img-logo"
+            id="logo-navbar"
+            src="./images/ulpanPNG.png"
+            alt=""
+        /></a>
+
+        <div class="traductor">
+          <div class="container-idioma">
+            <a href="../index.html"><img src="./images/idioma/reino-unido.png" alt="Ingles"></a>
+            <a href="index.html"><img src="./images/idioma/bandera (1).png" alt="Español"></a>
+          </div>
+        </div>
+
+        <form action="search.html" method="post" class="search-form">
+          <input
+            type="text"
+            name="search_box"
+            required
+            placeholder="search courses..."
+            maxlength="100" />
+          <button type="submit" class="fas fa-search"></button>
+        </form>
+
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+
+        <div class="profile">
+          <img src="images/pic-1.jpg" class="image" alt="" />
+          <h3 class="name">Francisco</h3>
+          <p class="role">Estudiante</p>
+          <a href="profile.html" class="btn">Ver Prefil</a>
+          <div class="flex-btn">
+            <a href="login.html" class="option-btn">Iniciar sesion</a>
+            <a href="register.html" class="option-btn">Registrarse </a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <div class="side-bar">
+      <div id="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
+
+      <div class="profile">
+        <img src="images/pic-1.jpg" class="image" alt="" />
+        <h3 class="name">Francisco</h3>
+        <p class="role">Estudiante</p>
+        <a href="profile.html" class="btn">Ver Prefil</a>
+      </div>
+
+      <nav class="navbar">
+        <a href="index.html">
+          <img src="./images/iconbarnav/hebreo.png" alt=""><span>Inicio</span>
+        </a>
+        <a href="courses.html">
+          <img src="./images/iconbarnav/graduacion.png" alt=""><span>Curso</span>
+        </a>
+        <a href="complementary.html">
+          <img src="./images/iconbarnav/complementario (1).png" alt=""><span>Complementario</span>
+        </a>
+        <a href="precourse.html">
+          <img src="./images/iconbarnav/aprender-en-linea.png" alt=""><span>Pre-Curso</span>
+        </a>
+        <a href="mobile.html">
+          <img src="./images/iconbarnav/telefono-inteligente.png" alt=""><span>Práctica para Celulares</span>
+        </a>
+        <a href="vocabulary.html">
+          <img src="./images/iconbarnav/caja-de-herramientas.png" alt=""><span>Vocabulario</span>
+        </a>
+        <a href="library.html">
+          <img src="./images/iconbarnav/biblioteca.png" alt=""><span>Libreria</span>
+        </a> 
+        <a href="about.html">
+          <img src="./images/iconbarnav/acerca-de.png" alt=""><span>Acerca de</span>
+      </a>
+        <a href="contact.html">
+          <img src="./images/iconbarnav/atencion-al-cliente.png" alt=""><span>Contactanos</span>
+          </a>
+      </nav>
+    </div>
+
+    <section class="watch-video">
+      <div class="video-container">
+        <div class="video">
+          <!-- <video src="images/vid-1.mp4" controls poster="./images/israel.avif" id="video"></video> -->
+          <iframe
+            class="iframe"
+            src="https://trainingpreview.edapp.com/p/c0QsNg2iCYxvWao4x6WcUsIX"
+            frameborder="0"
+            width="750"
+            height="700"></iframe>
+        </div>
+        <h3 class="title">Pre-Cursos </h3>
+        <div class="info">
+          <p class="date">
+            <i class="fas fa-calendar"></i><span>22-10-2022</span>
+          </p>
+          <p class="date"><i class="fas fa-heart"></i><span>44 likes</span></p>
+        </div>
+        <div class="tutor">
+          <img src="images/pic-2.jpg" alt="" />
+          <div>
+            <h3>Landon Parker</h3>
+            <span>Maestro</span>
+          </div>
+        </div>
+        <form action="" method="post" class="flex">
+          <a href="playlist.html" class="inline-btn">Ver Lista de Reproduccion</a>
+          <button><i class="far fa-heart"></i><span>like</span></button>
+        </form>
+        <p class="description">
+          Nuestra serie de videos de nivel previo al curso está diseñada para principiantes de hebreo y ofrece una introducción amigable y accesible al idioma. A través de lecciones dinámicas y entretenidas, los estudiantes se sumergirán en los fundamentos del hebreo, aprendiendo el alfabeto, vocabulario básico, frases esenciales y estructuras de oraciones simples. Cada vídeo está cuidadosamente estructurado para garantizar una comprensión clara de los conceptos básicos, promoviendo una base lingüística sólida. Ideal para aquellos que quieran iniciar su viaje al hebreo con confianza y entusiasmo.
+        </p>
+        <br />
+        <br />
+        
+      </div>
+    </section>
+
+    <section class="comments">
+      <h1 class="heading">5 Comentarios</h1>
+
+      <form action="" class="add-comment">
+        <h3>Comentar</h3>
+        <textarea
+          name="comment_box"
+          placeholder="enter your comment"
+          required
+          maxlength="1000"
+          cols="30"
+          rows="10"></textarea>
+        <input
+          type="submit"
+          value="add comment"
+          class="inline-btn"
+          name="add_comment" />
+      </form>
+
+      <h1 class="heading">Comentarios del usuario</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="user">
+            <img src="images/pic-1.jpg" alt="" />
+            <div>
+              <h3>Brian Jones</h3>
+              <span>22-10-2022</span>
+            </div>
+          </div>
+          <div class="comment-box">
+            Esta es una manera increíble de recordar palabras.
+          </div>
+          <form action="" class="flex-btn">
+            <input
+              type="submit"
+              value="edit comment"
+              name="edit_comment"
+              class="inline-option-btn" />
+            <input
+              type="submit"
+              value="delete comment"
+              name="delete_comment"
+              class="inline-delete-btn" />
+          </form>
+        </div>
+
+        <div class="box">
+          <div class="user">
+            <img src="images/pic-2.jpg" alt="" />
+            <div>
+              <h3>Grace Evans</h3>
+              <span>22-10-2022</span>
+            </div>
+          </div>
+          <div class="comment-box">increíble tutorial! ¡sigue adelante!</div>
+        </div>
+
+        <div class="box">
+          <div class="user">
+            <img src="images/pic-3.jpg" alt="" />
+            <div>
+              <h3>Savannah Reed</h3>
+              <span>22-10-2022</span>
+            </div>
+          </div>
+          <div class="comment-box">
+            increíble manera de enseñar! ¡muchas gracias!
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="user">
+            <img src="images/pic-4.jpg" alt="" />
+            <div>
+              <h3>Owen Price</h3>
+              <span>22-10-2022</span>
+            </div>
+          </div>
+          <div class="comment-box">Me encantó, gracias por el tutorial!</div>
+        </div>
+
+        <div class="box">
+          <div class="user">
+            <img src="images/pic-5.jpg" alt="" />
+            <div>
+              <h3>Connor Jenkins</h3>
+              <span>22-10-2022</span>
+            </div>
+          </div>
+          <div class="comment-box">
+            ¡Esto es lo que he estado buscando! ¡muchas gracias!
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="user">
+            <img src="images/pic-2.jpg" alt="" />
+            <div>
+              <h3>Avery Coleman</h3>
+              <span>22-10-2022</span>
+            </div>
+          </div>
+          <div class="comment-box">gracias por el tutorial!</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      &copy; copyright @ 2024 by
+      <span
+        ><img
+          id="img-footer"
+          class="img-logo-footer"
+          src="./images/ulpanPNG.png"
+          alt=""
+      /></span>
+      | all rights reserved
+    </footer>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
