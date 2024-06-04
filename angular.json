@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css",
               "src/assets/lib/owlcarousel/assets/owl.carousel.min.css",
               "src/assets/lib/animate/animate.min.css",
@@ -41,6 +42,7 @@
 
             ],
             "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
               
               "src/assets/lib/wow/wow.min.js",
               "src/assets/lib/easing/easing.min.js",
