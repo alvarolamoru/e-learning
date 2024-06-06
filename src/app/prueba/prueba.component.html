@@ -1,53 +1,133 @@
-<button class="btn btn-succes" data-bs-toggle="offcanvas"  style="margin-top: 100px;" data-bs-target="#intro">presiona</button>
-<div class="offcanvas offcanvas-start" id="intro">
-    <div class="offcanvas-header">
-        <div class="offcanvas-title">
-            <div id="close-btn">
-                <i class="fas fa-times"></i>
-              </div>
 
-        </div>
-     
-    </div>
+<div class="d-flex flex-row-reverse aling-items-center justify-content-center bg-primary" style="margin-top: 70px;height: 100px;">
+  <div class="col-8 container d-flex flex-row aling-items-center justify-content-center" style="margin: auto 2px;">
+    <div class="d-flex flex-row aling-items-center  justify-content-center">
+      <div class="d-flex flex-wrap-nowrap aling-items-center justify-content-center " style="width: 100%;">
+        <form action="search.html" method="post" class="search-form d-flex flex-row-reverse" style="height: 100%;">
+          
+          <button type="submit" class="fas fa-search p-1" ></button>
+          <input class="p-2 input" type="text" name="search_box" required="" placeholder="search courses..." maxlength="100">
+          
+        </form>
+
         
-    <div class="profile" style="margin: auto;">
-        <img src="../../../assets/html-demo/desgin/images/pic-1.jpg" class="image" alt=""/>
-        <h3 class="name" style="margin-left: 0">Francis</h3>
-        <p class="role" style="margin-left: 0">Student</p>
-        <a href="../../../assets/html-demo/desgin/profile.html" style="margin: 0;" class="btn">view profile</a>
-      </div>
-    <div class="offcanvas-body">
-        
-        <a href="index.html" class="row" > <span style="display: inline-block;">Home</span><img style="display: inline-block;" class="img" src="../../../assets/html-demo/desgin/images/iconbarnav/hebreo.png" alt=""></a>
-            
-            <a href="courses.html"
-              ><img class="img" src="../../../assets/html-demo/desgin/images/iconbarnav/graduacion.png" alt=""><span>Courses</span></a
-            >
-      
-             <a href="complementary.html"
-              ><img class="img" src="../../../assets/html-demo/desgin/images/iconbarnav/complementario (1).png" alt=""><span>Complementary</span></a
-            >
-      
-            <a href="precourse.html"
-              ><img class="img" src="../../../assets/html-demo/desgin/images/iconbarnav/aprender-en-linea.png" alt=""><span>Precourse</span></a
-            >
-      
-            <a href="mobile.html"
-              ><img class="img" src="../../../assets/html-demo/desgin/images/iconbarnav/telefono-inteligente.png" alt=""><span>Mobile Practice</span></a
-            >
-      
-      <a href="vocabulary.html"
-              ><img class="img" src="../../../assets/html-demo/desgin/images/iconbarnav/caja-de-herramientas.png" alt=""><span>Vocabulary</span></a
-            >
-            <a href="../../../assets/html-demo/desgin/library.html"><img style="width: 30px;height: 30px;" src="../../../assets/html-demo/desgin/images/iconbarnav/biblioteca.png" alt=""><span>Library</span></a> 
-            <a href="../../../assets/html-demo/desgin/about.html"
-            ><img class="img" src="../../../assets/html-demo/desgin/images/iconbarnav/acerca-de.png" alt=""><span>About</span></a
-          >
-            <a href="contact.html"
-              ><img class="img" src="../../../assets/html-demo/desgin/images/iconbarnav/atencion-al-cliente.png" alt=""><span>Contact us</span></a
-            >
+          <div id="menu-btn " class="fas fa-bars p-1 "  style="margin: auto 3px;" data-bs-toggle="offcanvas" data-bs-target="#intro" ></div>
+          <div id="user-btn" class="fas fa-user p-1"  style="margin: auto 3px;"></div>
+          <div id="toggle-btn" class="fas fa-sun p-1" style="margin: auto 3px;" ></div>
        
+          <!-- <div class="profile d-flex">
+            <img src="../../../assets/html-demo/desgin/images/pic-1.jpg" class="image" alt="" />
+            <h3 class="name">Francis F.</h3>
+            <p class="role">Student</p>
+            <a href="../../../assets/html-demo/desgin/profile.html" class="btn">view profile</a>
+            <div class="flex-btn">
+              <a href="../../../assets/html-demo/desgin/login.html" class="option-btn">login</a>
+              <a href="../../../assets/html-demo/desgin/register.html" class="option-btn">register</a>
+            </div>
+          </div> -->
+
+     
+      </div>
     </div>
+  </div>
+  <div class="offcanvas offcanvas-start" id="intro">
+  <div class="offcanvas-header">
+      <div class="offcanvas-title  d-flex flex-row">
+          <div id="close-btn ml-2 ">
+              <i class="fas fa-times"  data-bs-dismiss="offcanvas"></i>
+            </div>
+
+      </div>
+   
+  </div>
+      
+  <div class="profile" style="margin: auto;">
+      <img src="../../../assets/html-demo/desgin/images/pic-1.jpg" class="image" alt=""/>
+      <h3 class="name" style="margin-left: 0">Francis</h3>
+      <p class="role" style="margin-left: 0">Student</p>
+      <a href="../../../assets/html-demo/desgin/profile.html" style="margin: 0;" class="btn">view profile</a>
+      <br>
+    </div>
+    
+    <hr>
+    <div class="offcanvas-body">
+      
+     
+      <a href="index.html" class="d-flex justify-content-between" > 
+        
+       
+        <img  class="img-icon p-1" src="../../../assets/html-demo/desgin/images/iconbarnav/hebreo.png" alt="">
+        <span class="p-2">Home</span>
+      </a>
+   
+          
+          <a href="courses.html"  class="d-flex justify-content-between" >
+            <img class="img-icon p-1" src="../../../assets/html-demo/desgin/images/iconbarnav/graduacion.png" alt="">
+            <span class="p-2">Courses</span>
+          </a>
+    
+           <a href="complementary.html"  class="d-flex justify-content-between" >
+            <img class=" img-icon p-1" src="../../../assets/html-demo/desgin/images/iconbarnav/complementario (1).png" alt="">
+            <span class="p-2">Complementary</span>
+            </a>
+    
+          <a href="precourse.html"  class="d-flex justify-content-between" >
+            <img class="img-icon p-1" src="../../../assets/html-demo/desgin/images/iconbarnav/aprender-en-linea.png" alt="">
+            <span class="p-2">Precourse</span>
+          </a>
+    
+          <a href="mobile.html"  class="d-flex justify-content-between" >
+            <img class="img-icon p-1" src="../../../assets/html-demo/desgin/images/iconbarnav/telefono-inteligente.png" alt="">
+            <span class="p-2">Mobile Practice</span>
+          </a>
+    
+    <a href="vocabulary.html"  class="d-flex justify-content-between">
+      <img class="img-icon p-1" src="../../../assets/html-demo/desgin/images/iconbarnav/caja-de-herramientas.png" alt="">
+      <span class="p-2">Vocabulary</span>
+      </a>
+          <a href="../../../assets/html-demo/desgin/library.html"  class="d-flex justify-content-between" >
+            <img class="img-icon p-1" src="../../../assets/html-demo/desgin/images/iconbarnav/biblioteca.png" alt="">
+            <span class="p-2">Library</span>
+          </a> 
+
+          <a href="../../../assets/html-demo/desgin/about.html"  class="d-flex justify-content-between" >
+            <img class="img-icon p-1" src="../../../assets/html-demo/desgin/images/iconbarnav/acerca-de.png" alt="">
+            <span class="p-2">About</span>
+            </a>
+
+          <a href="contact.html"  class="d-flex justify-content-between">
+            <img class="img-icon p-1" src="../../../assets/html-demo/desgin/images/iconbarnav/atencion-al-cliente.png" alt="">
+            <span class="p-2">Contact us</span>
+            </a>
+     
+  </div>
 </div>
 
 
+   <!--  <div class="box">
+      <h3 class="title">likes and comments</h3>
+      <p class="likes">total likes : <span>25</span></p>
+      <a href="#" class="inline-btn">view likes</a>
+      <p class="likes">total comments : <span>12</span></p>
+      <a href="#" class="inline-btn">view comments</a>
+      <p class="likes">saved playlists : <span>4</span></p>
+      <a href="#" class="inline-btn">view playlists</a>
+    </div>-->
+
+   
+
+    </div>
+    <!-- <div class="row bg-secondary d-flex flex-row" style="height: 100px;width: 100vw;">
+      <div class="d-flex flex-row ">
+        <div class="content-principal-txt-img">
+          <a class="content-class-img-txt" href="../../../assets/html-demo/desgin/courses.html">
+            <div class="contenedor-learningtools">
+            <img style="height: 70px;width: 70px;" src="../../../assets/html-demo/desgin/images/aleph-12.jpg" alt="">
+            <h5>Principal Course</h5>
+            <p>Aleph Level</p>
+          </div>
+        </a>
+      
+      </div>
+ 
+    </div> -->

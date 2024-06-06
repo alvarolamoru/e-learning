@@ -1,6 +1,13 @@
-.img{
-    width: 30px;
-    height: 30px;
-    margin-right: 0;
+.tam{
+    margin-top: 70px;
+    height: 100px;
+
 }
 
+.input{
+    border-radius: 20px;
+}
+.img-icon{
+    height: 40px;
+    width: 40px;
+}
