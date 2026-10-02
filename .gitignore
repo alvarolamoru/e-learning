@@ -1,2 +1,5 @@
-node_modules
-node_modules
+# Dependencias
+node_modules/
+
+# Cache de build del Angular CLI
+.angular/
